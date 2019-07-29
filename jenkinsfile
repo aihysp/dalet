@@ -1,1 +1,14 @@
-source code
+pipeline{ 
+  agent any
+    stages{
+      stage('prerequisite'){
+        steps{
+        
+        
+        
+      }
+     } 
+      stage('Test'){
+      {
+    }
+   }
