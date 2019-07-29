@@ -1,12 +1,11 @@
 pipeline{ 
   agent any
     stages{
-      stage('prerequisite'){
-     
-  }
-  }
-      stage('Test'){
-         steps{}
-   }
+    stage('prerequisite'){steps{
+    }
+    }
+    stage('Test'){steps{
+    }
+    }
     }
    }
