@@ -2,11 +2,11 @@ pipeline{
   agent any
     stages{
     stage('prerequisite'){steps{
-build '287'
+build 'Test'
     }
     }
     stage('Test'){steps{
-build '287'
+build 'Test'
     }
     }
     }
