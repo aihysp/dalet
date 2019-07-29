@@ -1,0 +1,1 @@
+Powershell.exe -executionpolicy remotesigned -File  C:\JenkinsAgent\Scripts\quta.ps1
