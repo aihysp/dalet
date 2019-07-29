@@ -6,7 +6,7 @@ build job: "/project/release-sanity/${env.BRANCH}", wait: true
     }
     }
     stage('Test'){steps{
-      
+     build job: "/project/release-sanity/${env.BRANCH}", wait: true 
     }
     }
     }
