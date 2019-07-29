@@ -2,11 +2,11 @@ pipeline{
   agent any
     stages{
     stage('prerequisite'){steps{
-build job: "/project/release-sanity/${env.BRANCH}", wait: true
+build '287'
     }
     }
     stage('Test'){steps{
-     build job: "/project/release-sanity/${env.BRANCH}", wait: true 
+build '287'
     }
     }
     }
