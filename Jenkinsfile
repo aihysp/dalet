@@ -6,7 +6,7 @@ build '01Check quta Script'
     }
     }
     stage('Test'){steps{
-build 'Test'
+build '01Check quta Script'
     }
     }
     }
