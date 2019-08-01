@@ -5,9 +5,7 @@ pipeline{
   agent any
     stages{
     stage('prerequisite'){steps{
-build '01Check quta Script' ,    parameters: [
-        string(NODE_TO_RUN: '287')
-    ]
+build '01Check quta Script'
     }
     }
     stage('Test'){steps{
